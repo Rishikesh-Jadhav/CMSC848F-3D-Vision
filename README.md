@@ -3,6 +3,7 @@ This repository serves as a record of my academic experience in CMSC848F during 
 
 ## 📚 Course Overview
 This 3D Computer Vision course provides a comprehensive journey through the principles and applications of three-dimensional visual data. It focuses on 5 key modules:
+ 
  **1. Background** : This module covers fundamental concepts, including 2D - 3D basics, 2.5D, layered depth images, multi-plane images, voxels, meshes, point clouds, and implicit representations.
  
  **2. Classical Multi-view Geometry** : This module includes learnining 	3D Representations, Multiview Depth Estimation, Structure from Motion (SfM) and Simultaneous Localization and Mapping (SLAM)
