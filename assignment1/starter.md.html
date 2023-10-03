@@ -1,0 +1,195 @@
+                    <meta charset="utf-8" emacsmode="-*- markdown -*">
+                            **Assignment 1 : Rendering Basics with Pytorch3D**
+                            **Author:** *Rishikesh Jadhav (119256534)*
+
+Rendering the First Mesh
+------------------------
+![Output of First Mesh](output_images_and_GIFS/cow_render_new.jpg)
+
+Practicing with Camera
+================
+360 degree Renders
+------------------------
+
+![360 View of Cow](output_images_and_GIFS/360_Cow.gif)
+
+### Implementation Note
+The function generates a sequence of 10 rendered images of a 3D cow mesh, with varying viewpoints spanning azimuth angles from 1 to 360 degrees.
+It maintains a consistent camera distance of 5 units from the cow mesh and utilizes a fixed light source located at [0, 0, -3]. 
+Additionally, it applies a predefined color of [0.3, 0.5, 0.5] to the cow mesh. 
+
+Dolly Zoom
+------------------------
+![Dolly Zoom](output_images_and_GIFS/dolly_new.gif)
+
+### Implementation Note
+
+The function creates a dolly zoom effect by rendering a sequence of frames with changing field of view (FOV) angles, spanning from 5 to 120 degrees over `num_frames`. 
+It dynamically calculates the distance to the subject to achieve the effect and annotates each frame with the FOV value. 
+
+Practicing With Meshes 
+===============
+Tetrahedron
+------------------------
+![Tetrahedron](output_images_and_GIFS/tetrahedron.gif)
+
+It has 4 Vertices and 4 faces. 
+
+### Implementation Note
+
+The function is designed to produce a GIF animation of a rotating tetrahedron mesh. It leverages PyTorch3D to create the tetrahedron mesh and applies rotation transformations to achieve the animation effect. 
+The function renders frames at specified rotation angles and assembles them into a GIF.
+
+
+Cube
+------------------------
+
+![Cube](output_images_and_GIFS/cube.gif)
+
+It has 8 vertices and 12 faces (2 triangle faces per cube face).
+
+### Implementation Note
+
+The function is designed to create a GIF animation of a rotating cube mesh. It utilizes PyTorch3D to create the cube mesh and applies rotation transformations to achieve the animation effect. The function renders frames at specified rotation angles and assembles them into a GIF. The cube is textured with a single color (e.g., blue) for visual representation.
+
+Retexturing Meshes
+==============
+
+![Retextured Mesh](output_images_and_GIFS/retextured_cow.gif)
+
+color1 and color2 were mixed to form the gif above. 
+
+color1 = [0.6, 0.9, 0.1]
+color2 = [0.2, 0.4, 0.0]
+
+### Implementation Note
+
+The function creates a GIF animation of a retextured cow mesh undergoing rotation. It utilizes PyTorch3D to load and manipulate the cow mesh. The function dynamically blends two colors across the cow's surface based on its Z-coordinate values, resulting in a smooth color transition. Frames are rendered at various rotation angles and assembled into a GIF, providing a visual representation of the textured cow mesh from different viewpoints.
+
+Camera Transforms
+===============
+
+![Original Image](output_images_and_GIFS/zeroth_transform_cow.jpg)
+
+The original postion of the mesh is shown above.
+
+![Postion One](output_images_and_GIFS/first_transform_cow.jpg)
+
+**The mesh was rotated 90 degrees along Z axis.** 
+
+The  R_relative=[[0,-1, 0], [1, 0, 0], [0, 0, 1]] and T_relative=[0, 0, 0] were taken.
+
+![Postion Two](output_images_and_GIFS/second_transform_cow.jpg)
+
+**The mesh moved along +Z axis 2 units.**
+
+The
+R_relative=[[1,0,0], [0,1,0], [0, 0, 1]] and 
+T_relative=[0, 0, 2] were taken.
+
+![Postion Three](output_images_and_GIFS/third_transform_cow.jpg)
+
+**The mesh moved along +X axis 0.3 units and -Z axis 0.25 units.**
+
+The 
+R_relative=[[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+T_relative=[0.52, -0.5, 0] were taken.
+
+
+![Postion Four](output_images_and_GIFS/fourth_transform_cow.jpg)
+
+**The mesh was moved along +X axis 3 units and along +Z axis 3 units. Finally rotated 90 degrees anticlockwise along Y axis.**
+
+The 
+R_relative=[[0,0,-1], [0,1,0], [1,0,0]]
+T_relative=[3, 0, 3] were taken.
+
+### Implementation Note
+
+The `camera_transformations` function applies transformations to a 3D cow mesh and renders the resulting scene from a new perspective. It utilizes PyTorch3D to load and manipulate the cow mesh and PyTorch tensors to represent rotation and translation transformations. The function combines these transformations to define a new camera viewpoint. A mesh renderer is used to render the scene with the adjusted camera, and the resulting image is returned. This function allows for dynamic manipulation of the cow's perspective based on specified transformation parameters.
+
+
+Rendering 3-D representations
+=====================
+
+Rendering RGBD Clouds from Pictures
+------------------------
+
+![Point Cloud 1](output_images_and_GIFS/plant1.gif =100x) ![Point Cloud 2](output_images_and_GIFS/plant2.gif =100x)![Union of Point Clouds](output_images_and_GIFS/plant3.gif =100x)
+
+The direction of the axis has to be passed to renderer as the output is inverted without flipping the y axis.
+
+### Implementation Note
+
+The function renders a sequence of images from multiple viewpoints of a 3D point cloud scene. It utilizes PyTorch3D to load and manipulate the point cloud data and perform rendering. The function generates frames from three different viewpoints by simulating camera rotations and unprojects depth images to obtain 3D points and RGB features. These frames are then assembled into separate sequences for each viewpoint, showcasing the point cloud scene from various angles.
+
+
+Parametric Functions 
+------------------------
+
+![Torus with 100 Points Sampled](output_images_and_GIFS/torus.gif)![Torus with 200 Points Sampled](output_images_and_GIFS/torus_200.gif)
+
+\begin{equation}
+x( \theta,\phi)=(R+r \cos{\theta})\cos{\phi} 
+\end{equation}
+\begin{equation}
+y( \theta,\phi)=(R+r \cos{\theta})\sin{\phi}
+\end{equation}
+\begin{equation}
+z( \theta,\phi)=r\cos{\phi}; \theta,\phi \in [0,2\pi]
+\end{equation}
+
+were the equations used to model the torus.
+Outer Radius was taken 3 and inner radius as 2 units.
+The torus was sampled with 100 and 200 points
+
+### Implementation Note
+
+The function generates a sequence of images rendering a torus shape using parametric sampling. It creates a grid of phi and theta values to densely sample points on the torus, calculates their coordinates, and normalizes colors based on the point cloud coordinates. The function then simulates camera rotations to capture the torus from different angles and renders frames. The resulting frames are combined to create an animation showcasing the torus from various viewpoints.
+
+
+Implicit Functions
+------------------------
+
+![Torus Using Implicit Function](output_images_and_GIFS//implicit_torus.gif)
+
+\begin{equation}
+f(x,y,z)= (x^{2}+y^{2}+z^{2}+R^{2}+r^{2})-4R^{2}(x^{2}+y^{2})=0
+\end{equation}
+
+was the equation used.The outer radius was taken as 4 units and inner radius as 2.5 units. 
+
+### Implementation Note
+
+The function generates a sequence of images by rendering a torus mesh using the Marching Cubes algorithm. It creates a 3D voxel grid to represent the torus shape, extracts vertices and faces using Marching Cubes, and normalizes vertex coordinates and textures. The function then simulates camera rotations to capture the torus mesh from different angles and renders frames. The resulting frames are combined to create an animation showcasing the torus mesh from various viewpoints.
+
+
+**Rendering as a Mesh vs Point Clouds**
+
+- **Speed and Memory:** Rendering point clouds is generally faster than rendering meshes. However, the performance advantage depends on the number of points in the point cloud compared to the number of faces in the mesh.
+
+- **Rendering Quality:** Meshes often produce higher-quality renders. They create a connected and smoother surface, while the rendering quality of point clouds is influenced by the number of points and the density of the sampling. Meshes tend to provide better visual results.
+
+- **Implicit vs Parametric Representations:** Implicit representations are well-suited for rendering as meshes, while parametric representations are naturally rendered as point clouds. Each representation has distinct use cases. Parametric representations allow for easy point sampling on the surface but don't convey global structural information (i.e., whether a point is inside or outside). In contrast, implicit functions can determine the latter but don't readily provide points on the surface.
+
+- **Fine Details:** Point clouds can excel at capturing fine details in the scene. Their ability to densely sample points allows for detailed rendering, making them suitable for scenarios where intricate information is critical.
+
+
+References
+================
+[848F-Assignment 1 Repository](https://github.com/848f-3DVision/assignment1) : Used for the README file and starter code. 
+
+[PyTorch Official Documentation](https://pytorch.org/)
+
+[Pytorch 3D documentation](https://pytorch3d.org/)  
+
+[Torus Equations](https://mathworld.wolfram.com/Torus.html)
+
+
+
+
+
+
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js?" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
+
