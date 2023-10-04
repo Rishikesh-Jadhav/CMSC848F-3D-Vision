@@ -36,18 +36,18 @@ In our course, we've delved in cutting-edge research. This section showcases a s
  
  **1. [Structure-from-Motion Revisited](https://openaccess.thecvf.com/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf)** : A Fresh Perspective on the role of SFM in Computer Vision.
  
- - **[Review]()**:
+ - **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group1_SFM_paper_review.docx.pdf)**:
  - **[Presentation]()**:
  
  **2. [Multi-Scale Geometric Consistency Guided Multi-View Stereo](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Multi-Scale_Geometric_Consistency_Guided_Multi-View_Stereo_CVPR_2019_paper.pdf)** : Explore the world of multi-view stereo reconstruction with a focus on geometric consistency.
 
-- **[Review]()**:
-- **[Presentation]()**:
+- **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group3_MVS_paper%20_review.docx.pdf)**:
+- **[Presentation](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/presentations/CMSC%20848F%20paper%20review%201.pdf)**:
 
  **3. [Omnidata: A Scalable Pipeline for Making Multi-Task Mid-Level Vision Datasets from 3D Scans](https://arxiv.org/abs/2110.04994)** : Find out how the authors put together datasets for all sorts of vision tasks from 3D scans.
 
-- **[Review]()**:
-- **[Presentation]()**:
+- **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group6_Single-view%203D%20(2.5D)_paper_review.pdf)**:
+- **[Presentation](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/presentations/omnidata_presentation.pdf)**:
   
  **4. [What Do Single-view 3D Reconstruction Networks Learn?](https://arxiv.org/abs/1905.03678)** :  Ever wondered what single-view 3D reconstruction networks are up to? 
 
