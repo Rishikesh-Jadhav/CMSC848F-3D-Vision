@@ -39,17 +39,11 @@ In our course, we've delved in cutting-edge research. This section showcases a s
 - **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group3_MVS_paper%20_review.docx.pdf)**
 - **[Presentation](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/presentations/CMSC%20848F%20paper%20review%201.pdf)**
  
-<div style="display: flex; flex-direction: row;">
-    <div style="flex: 1;">
-        - **Structure-from-Motion Revisited**: A Fresh Perspective on the role of SFM in Computer Vision.
-    </div>
-    <div style="flex: 1;">
-        - [Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group1_SFM_paper_review.docx.pdf)
-    </div>
-    <div style="flex: 1;">
-        - [Presentation](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/presentations/SfM%20and%20SLAM%20presentation.pdf)
-    </div>
-</div>
+ **2. [Structure-from-Motion Revisited](https://openaccess.thecvf.com/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf)** : A Fresh Perspective on the role of SFM in Computer Vision.
+ 
+ - **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group1_SFM_paper_review.docx.pdf)**
+ - **[Presentation](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/presentations/SfM%20and%20SLAM%20presentation.pdf)**
+
 
  **3. [Omnidata: A Scalable Pipeline for Making Multi-Task Mid-Level Vision Datasets from 3D Scans](https://arxiv.org/abs/2110.04994)** : Find out how the authors put together datasets for all sorts of vision tasks from 3D scans.
 
