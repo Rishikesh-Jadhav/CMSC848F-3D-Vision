@@ -15,7 +15,7 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
  **5. 3D Processing and Generation** :This module helps develop proficiency in processing point clouds, covering classification, segmentation, and detection. Additionally, we delve into techniques for processing mesh representations, understanding generative models for 3D data, and exploring dynamic aspects of 3D data.
 
 ## 📄 Assignment List
-### 1. [Assignment 1](): Rendering with Pytorch3D(Ongoing)
+### 1. [Assignment 1](): Rendering with Pytorch3D
 
 - **Learnings from Assignemnt 1**:
   
