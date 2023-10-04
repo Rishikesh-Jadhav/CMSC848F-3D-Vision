@@ -31,8 +31,30 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
 
 - **Learnings from Assignemnt 4**:
 
+## 📝 Paper Reviews and Presentations
+In our course, we've delved in cutting-edge research. This section showcases a selection of academic papers that we've not only read but also reviewed carefully, presented, and discussed in our class. These papers represent a diverse range of topics and discoveries in the field of 3D vision, offering valuable insights.
+ 
+ **1. [Structure-from-Motion Revisited](https://openaccess.thecvf.com/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf)** : A Fresh Perspective on the role of SFM in Computer Vision.
+ 
+ - **[Review]()**:
+ - **[Presentation]()**:
+ 
+ **2. [Multi-Scale Geometric Consistency Guided Multi-View Stereo](https://openaccess.thecvf.com/content_CVPR_2019/papers/Xu_Multi-Scale_Geometric_Consistency_Guided_Multi-View_Stereo_CVPR_2019_paper.pdf)** : Explore the world of multi-view stereo reconstruction with a focus on geometric consistency.
 
-## 📝 Additional Resources
+- **[Review]()**:
+- **[Presentation]()**:
+
+ **3. [Omnidata: A Scalable Pipeline for Making Multi-Task Mid-Level Vision Datasets from 3D Scans](https://arxiv.org/abs/2110.04994)** : Find out how the authors put together datasets for all sorts of vision tasks from 3D scans.
+
+- **[Review]()**:
+- **[Presentation]()**:
+  
+ **4. [What Do Single-view 3D Reconstruction Networks Learn?](https://arxiv.org/abs/1905.03678)** :  Ever wondered what single-view 3D reconstruction networks are up to? 
+
+- **[Review]()**:
+- **[Presentation]()**:
+
+## Additional Resources
 - [Course related resources](https://www.cs.umd.edu/class/fall2023/cmsc848f/)
 
 
