@@ -31,8 +31,19 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
 
 - **Learnings from Assignemnt 4**:
 
+## 📝 Paper Reviews and Presentations
+In our course, we've delved in cutting-edge research. This section showcases a selection of academic papers that we've not only read but also reviewed carefully, presented, and discussed in our class. These papers represent a diverse range of topics and discoveries in the field of 3D vision, offering valuable insights.
+ 
+ **1. [Structure-from-Motion Revisited]()**
+ 
+ **2. [Multi-Scale Geometric Consistency Guided Multi-View Stereo]()**
 
-## 📝 Additional Resources
+ **3. [Omnidata: A Scalable Pipeline for Making Multi-Task Mid-Level Vision Datasets from 3D Scans]()**
+
+ **4. [What Do Single-view 3D Reconstruction Networks Learn?]()**
+
+
+## Additional Resources
 - [Course related resources](https://www.cs.umd.edu/class/fall2023/cmsc848f/)
 
 
