@@ -33,6 +33,15 @@ pip install 'git+https://github.com/facebookresearch/pytorch3d.git@stable'
 pip install -r requirements.txt
 ```
 
+A GPU installation is as follows (tested on a Linux machine):
+```
+conda create -n pytorch3d-env python=3.9
+conda activate pytorch3d-env
+conda install pytorch=1.13.0 torchvision pytorch-cuda=11.6 -c pytorch -c nvidia
+conda install -c fvcore -c iopath -c conda-forge fvcore iopath
+pip install -r requirements.txt
+```
+
 If you have access to a GPU, the rendering code may run faster, but everything should
 be able to run locally on a CPU.
 
@@ -45,6 +54,8 @@ renderer using the `get_mesh_renderer` wrapper function in `utils.py`:
 ```python
 renderer = get_mesh_renderer(image_size=512)
 ```
+
+More information about the renderer can be found [here](https://pytorch3d.org/docs/renderer_getting_started).
 
 Meshes in Pytorch3D are defined by a list of vertices, faces, and texture information.
 We will be using per-vertex texture features that assign an RGB color to each vertex.
@@ -101,7 +112,7 @@ the following output:
 
 ### 1.1. 360-degree Renders (5 points)
 
-Your first task is to create a 360-degree gif video that shows many continuous views of the
+Your task is to create a 360-degree gif video that shows many continuous views of the
 provided cow mesh. For many of your results this semester, you will be expected to show
 full turntable views of your outputs. You may find the following helpful:
 * [`pytorch3d.renderer.look_at_view_transform`](https://pytorch3d.readthedocs.io/en/latest/modules/renderer/cameras.html#pytorch3d.renderer.cameras.look_at_view_transform):
@@ -113,6 +124,8 @@ import imageio
 my_images = ...  # List of images [(H, W, 3)]
 imageio.mimsave('my_gif.gif', my_images, fps=15)
 ```
+
+You may find this [website](https://scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/lookat-function/framing-lookat-function.html) helpful to understand look-at transforms.
 
 **On your webpage, you should include a gif that shows the cow mesh from many
 continously changing viewpoints.**
