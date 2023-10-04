@@ -36,12 +36,23 @@ In our course, we've delved in cutting-edge research. This section showcases a s
  
  **1. [Structure-from-Motion Revisited]()**
  
+ - **[Review]()**:
+ - **[Presentation]()**:
+ 
  **2. [Multi-Scale Geometric Consistency Guided Multi-View Stereo]()**
+
+- **[Review]()**:
+- **[Presentation]()**:
 
  **3. [Omnidata: A Scalable Pipeline for Making Multi-Task Mid-Level Vision Datasets from 3D Scans]()**
 
+- **[Review]()**:
+- **[Presentation]()**:
+  
  **4. [What Do Single-view 3D Reconstruction Networks Learn?]()**
 
+- **[Review]()**:
+- **[Presentation]()**:
 
 ## Additional Resources
 - [Course related resources](https://www.cs.umd.edu/class/fall2023/cmsc848f/)
