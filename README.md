@@ -17,7 +17,7 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
 ## 📄 Assignment List
 ### [Assignment 1](): Rendering with Pytorch3D
 
-- **Learnings from Assignemnt 1**:
+- **Learnings from Assignment 1**:
 
   1. __Rendering Your First Mesh:__ Basics of mesh rendering using PyTorch3D.
 
@@ -37,15 +37,15 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
   
 ### [Assignment 2]():  Single View to 3D(yet to start)
 
-- **Learnings from Assignemnt 2**:
+- **Learnings from Assignment 2**:
   
 ### [Assignment 3]():  Volume Rendering and Neural Radiance Fields (yet to start)
 
-- **Learnings from Assignemnt 3**:
+- **Learnings from Assignment 3**:
 
 ### [Assignment 4](): Point cloud processing(yet to start)
 
-- **Learnings from Assignemnt 4**:
+- **Learnings from Assignment 4**:
 
 ## 📝 Paper Reviews and Presentations
 In our course, we've delved in cutting-edge research. This section showcases a selection of academic papers that we've not only read but also reviewed carefully, presented, and discussed in our class. These papers represent a diverse range of topics and discoveries in the field of 3D vision, offering valuable insights.
