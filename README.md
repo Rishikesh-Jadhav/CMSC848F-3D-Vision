@@ -35,7 +35,7 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
    
   8. __Implicit Surfaces:__ Defining surfaces using implicit functions and converting them to meshes. Rendering a torus mesh with an implicit function and discussing mesh vs. point cloud rendering trade-offs.
   
-### [Assignment 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2):  Single View to 3D(yet to start)
+### [Assignment 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2):  Single View to 3D(Ongoing)
 
 - **Learnings from Assignment 2**:
   
