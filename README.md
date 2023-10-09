@@ -15,19 +15,35 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
  **5. 3D Processing and Generation** :This module helps develop proficiency in processing point clouds, covering classification, segmentation, and detection. Additionally, we delve into techniques for processing mesh representations, understanding generative models for 3D data, and exploring dynamic aspects of 3D data.
 
 ## 📄 Assignment List
-### 1. [Assignment 1](): Rendering with Pytorch3D
+### [Assignment 1](): Rendering with Pytorch3D
 
 - **Learnings from Assignemnt 1**:
+
+  1. __Rendering Your First Mesh:__ Basics of mesh rendering using PyTorch3D.
+
+  2. __Practicing with Cameras:__ Creating 360-degree gifs and setting camera viewpoints.
+
+  3. __Re-creating the Dolly Zoom:__ Implementing the Dolly Zoom effect in PyTorch3D.
+
+  4. __Practicing with Meshes:__ Creating and rendering 3D shapes like a tetrahedron and cube.
+
+  5. __Re-texturing a Mesh:__ Changing a mesh's color based on vertex positions.
+
+  6. __Camera Transformations:__ Understanding camera pose transformations.
+
+  7. __Rendering Generic 3D Representations:__ Rendering point clouds and constructing them from RGB-D images. Parametrically generating and rendering point clouds.
+   
+  8. __Implicit Surfaces:__ Defining surfaces using implicit functions and converting them to meshes. Rendering a torus mesh with an implicit function and discussing mesh vs. point cloud rendering trade-offs.
   
-### 1. [Assignment 2]():  Single View to 3D(yet to start)
+### [Assignment 2]():  Single View to 3D(yet to start)
 
 - **Learnings from Assignemnt 2**:
   
-### 1. [Assignment 3]():  Volume Rendering and Neural Radiance Fields (yet to start)
+### [Assignment 3]():  Volume Rendering and Neural Radiance Fields (yet to start)
 
 - **Learnings from Assignemnt 3**:
 
-### 1. [Assignment 4](): Point cloud processing(yet to start)
+### [Assignment 4](): Point cloud processing(yet to start)
 
 - **Learnings from Assignemnt 4**:
 
@@ -43,6 +59,7 @@ In our course, we've delved in cutting-edge research. This section showcases a s
  
  - **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group1_SFM_paper_review.docx.pdf)**
  - **[Presentation](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/presentations/SfM%20and%20SLAM%20presentation.pdf)**
+
 
  **3. [Omnidata: A Scalable Pipeline for Making Multi-Task Mid-Level Vision Datasets from 3D Scans](https://arxiv.org/abs/2110.04994)** : Find out how the authors put together datasets for all sorts of vision tasks from 3D scans.
 
