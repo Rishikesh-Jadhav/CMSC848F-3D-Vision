@@ -15,7 +15,7 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
  **5. 3D Processing and Generation** :This module helps develop proficiency in processing point clouds, covering classification, segmentation, and detection. Additionally, we delve into techniques for processing mesh representations, understanding generative models for 3D data, and exploring dynamic aspects of 3D data.
 
 ## 📄 Assignment List
-### [Assignment 1](): Rendering with Pytorch3D
+### [Assignment 1](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment1): Rendering with Pytorch3D
 
 - **Learnings from Assignment 1**:
 
@@ -35,7 +35,7 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
    
   8. __Implicit Surfaces:__ Defining surfaces using implicit functions and converting them to meshes. Rendering a torus mesh with an implicit function and discussing mesh vs. point cloud rendering trade-offs.
   
-### [Assignment 2]():  Single View to 3D(yet to start)
+### [Assignment 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2):  Single View to 3D(yet to start)
 
 - **Learnings from Assignment 2**:
   
