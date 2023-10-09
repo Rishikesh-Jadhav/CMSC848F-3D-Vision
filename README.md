@@ -19,21 +19,21 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
 
 - **Learnings from Assignemnt 1**:
 
-1. *Rendering Your First Mesh:* Basics of mesh rendering using PyTorch3D.
+  1. *Rendering Your First Mesh:* Basics of mesh rendering using PyTorch3D.
 
-2. *Practicing with Cameras:* Creating 360-degree gifs and setting camera viewpoints.
+  2. *Practicing with Cameras:* Creating 360-degree gifs and setting camera viewpoints.
 
-3. *Re-creating the Dolly Zoom:* Implementing the Dolly Zoom effect in PyTorch3D.
+  3. *Re-creating the Dolly Zoom:* Implementing the Dolly Zoom effect in PyTorch3D.
 
-4. *Practicing with Meshes:* Creating and rendering 3D shapes like a tetrahedron and cube.
+  4. *Practicing with Meshes:* Creating and rendering 3D shapes like a tetrahedron and cube.
 
-5. *Re-texturing a Mesh:* Changing a mesh's color based on vertex positions.
+  5. *Re-texturing a Mesh:* Changing a mesh's color based on vertex positions.
 
-6. *Camera Transformations:* Understanding camera pose transformations.
+  6. *Camera Transformations:* Understanding camera pose transformations.
 
-7. *Rendering Generic 3D Representations:* Rendering point clouds and constructing them from RGB-D images. Parametrically generating and rendering point clouds.
+  7. *Rendering Generic 3D Representations:* Rendering point clouds and constructing them from RGB-D images. Parametrically generating and rendering point clouds.
    
-8. *Implicit Surfaces:* Defining surfaces using implicit functions and converting them to meshes. Rendering a torus mesh with an implicit function and discussing mesh vs. point cloud rendering trade-offs.
+  8. *Implicit Surfaces:* Defining surfaces using implicit functions and converting them to meshes. Rendering a torus mesh with an implicit function and discussing mesh vs. point cloud rendering trade-offs.
   
 ### [Assignment 2]():  Single View to 3D(yet to start)
 
