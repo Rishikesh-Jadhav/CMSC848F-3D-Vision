@@ -19,7 +19,7 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
 
 - **Learnings from Assignment 1**:
 
-  1. __Rendering Your First Mesh:__ Basics of mesh rendering using PyTorch3D.
+  1. __Rendering First Mesh:__ Basics of mesh rendering using PyTorch3D.
 
   2. __Practicing with Cameras:__ Creating 360-degree gifs and setting camera viewpoints.
 
