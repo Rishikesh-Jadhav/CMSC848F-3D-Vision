@@ -21,30 +21,30 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
 
   1. __Rendering First Mesh:__ Basics of mesh rendering using PyTorch3D.
 
-  2. __Practicing with Cameras:__ Creating 360-degree gifs and setting camera viewpoints.
+  2. __Practicing with Cameras:__ Created 360-degree gifs and setting camera viewpoints.
 
-  3. __Re-creating the Dolly Zoom:__ Implementing the Dolly Zoom effect in PyTorch3D.
+  3. __Re-creating the Dolly Zoom:__ Implemented the Dolly Zoom effect in PyTorch3D.
 
-  4. __Practicing with Meshes:__ Creating and rendering 3D shapes like a tetrahedron and cube.
+  4. __Practicing with Meshes:__ Created and rendered 3D shapes like a tetrahedron and cube.
 
-  5. __Re-texturing a Mesh:__ Changing a mesh's color based on vertex positions.
+  5. __Re-texturing a Mesh:__ Changed mesh colors based on vertex positions.
 
-  6. __Camera Transformations:__ Understanding camera pose transformations.
+  6. __Camera Transformations:__ Understood and implemented camera pose transformations.
 
-  7. __Rendering Generic 3D Representations:__ Rendering point clouds and constructing them from RGB-D images. Parametrically generating and rendering point clouds.
+  7. __Rendering Generic 3D Representations:__ Rendered point clouds and constructed them from RGB-D images. Parametrically generated and rendered point clouds.
    
-  8. __Implicit Surfaces:__ Defining surfaces using implicit functions and converting them to meshes. Rendering a torus mesh with an implicit function and discussing mesh vs. point cloud rendering trade-offs.
+  8. __Implicit Surfaces:__ Defined surfaces using implicit functions and converted them to meshes. Rendered a torus mesh with an implicit function and discussed mesh vs. point cloud rendering trade-offs.
   
 ### [Assignment 2](https://github.com/848f-3DVision/assignment2):  Single View to 3D
 
 - **Learnings from Assignment 2**:
 
   1. **Exploring Loss Functions (15 points)**
-     - *Fitting a Voxel Grid (5 points):* Understanding and implementing binary cross-entropy loss for regressing to 3D binary voxel grids.
-     - *Fitting a Point Cloud (5 points):* Implementing Chamfer loss for fitting 3D point clouds and writing custom code for this purpose.
-     - *Fitting a Mesh (5 points):* Defining a smoothening loss for fitting a 3D mesh, utilizing pre-defined losses in the PyTorch library.
+     - *Fitting a Voxel Grid :* Understood and implemented binary cross-entropy loss for regressing to 3D binary voxel grids.
+     - *Fitting a Point Cloud :* Implemented Chamfer loss for fitting 3D point clouds and wrote custom code for this purpose.
+     - *Fitting a Mesh :* Defined a smoothening loss for fitting a 3D mesh, utilizing pre-defined losses in the PyTorch library.
   
-  1. __Exploring Loss Functions:__
+  
     
 ### [Assignment 3]():  Volume Rendering and Neural Radiance Fields (Ongoing)
 
