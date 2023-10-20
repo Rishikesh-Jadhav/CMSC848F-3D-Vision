@@ -39,7 +39,7 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
 
 - **Learnings from Assignment 2**:
 
-  1. **Exploring Loss Functions (15 points)**
+  1. __Exploring Loss Functions:__
      - *Fitting a Voxel Grid :* Understood and implemented binary cross-entropy loss for regressing to 3D binary voxel grids.
      - *Fitting a Point Cloud :* Successfully implemented Chamfer loss for fitting 3D point clouds and wrote custom code for this purpose.
      - *Fitting a Mesh :*  Defined a smoothening loss for fitting a 3D mesh, utilizing pre-defined losses in the PyTorch library.
