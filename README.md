@@ -15,30 +15,45 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
  **5. 3D Processing and Generation** :This module helps develop proficiency in processing point clouds, covering classification, segmentation, and detection. Additionally, we delve into techniques for processing mesh representations, understanding generative models for 3D data, and exploring dynamic aspects of 3D data.
 
 ## 📄 Assignment List
-### [Assignment 1](https://github.com/848f-3DVision/assignment1): Rendering with Pytorch3D
+### [Assignment 1](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment1): Rendering with Pytorch3D
 
 - **Learnings from Assignment 1**:
 
-  1. __Rendering First Mesh:__ Basics of mesh rendering using PyTorch3D.
+  1. __Rendering First Mesh:__ Acquired a basic understanding of mesh rendering using PyTorch3D.
 
-  2. __Practicing with Cameras:__ Creating 360-degree gifs and setting camera viewpoints.
+  2. __Practicing with Cameras:__ Created 360-degree gifs and set camera viewpoints for rendering.
 
-  3. __Re-creating the Dolly Zoom:__ Implementing the Dolly Zoom effect in PyTorch3D.
+  3. __Re-creating the Dolly Zoom:__ Successfully implemented the Dolly Zoom effect in PyTorch3D.
 
-  4. __Practicing with Meshes:__ Creating and rendering 3D shapes like a tetrahedron and cube.
+  4. __Practicing with Meshes:__ Created and rendered 3D shapes such as a tetrahedron and a cube.
 
-  5. __Re-texturing a Mesh:__ Changing a mesh's color based on vertex positions.
+  5. __Re-texturing a Mesh:__ Changed mesh colors based on vertex positions.
 
-  6. __Camera Transformations:__ Understanding camera pose transformations.
+  6. __Camera Transformations:__  Implemented camera pose transformations for rendering.
 
-  7. __Rendering Generic 3D Representations:__ Rendering point clouds and constructing them from RGB-D images. Parametrically generating and rendering point clouds.
+  7. __Rendering Generic 3D Representations:__ Rendered point clouds and constructed them from RGB-D images. Parametrically generated and rendered point clouds.
    
-  8. __Implicit Surfaces:__ Defining surfaces using implicit functions and converting them to meshes. Rendering a torus mesh with an implicit function and discussing mesh vs. point cloud rendering trade-offs.
+  8. __Implicit Surfaces:__ Utilized implicit functions to define surfaces and converted them to meshes. Rendered a torus mesh with an implicit function and discussed mesh vs. point cloud rendering trade-offs.
   
-### [Assignment 2](https://github.com/848f-3DVision/assignment2):  Single View to 3D
+### [Assignment 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2):  Single View to 3D
 
 - **Learnings from Assignment 2**:
-  
+
+  1. __Exploring Loss Functions:__
+     - *Fitting a Voxel Grid :* Understood and implemented binary cross-entropy loss for regressing to 3D binary voxel grids.
+     - *Fitting a Point Cloud :* Successfully implemented Chamfer loss for fitting 3D point clouds and wrote custom code for this purpose.
+     - *Fitting a Mesh :*  Defined a smoothening loss for fitting a 3D mesh, utilizing pre-defined losses in the PyTorch library.
+       
+  2. __Reconstructing 3D from Single View:__
+     - *Designed an Image to Voxel Grid Model :* Created a neural network to decode binary voxel grids, possibly modifying the provided decoder, and trained the single-view to voxel grid pipeline.
+     - *Developed an Image to Point Cloud Model :* Designed a neural network to decode point clouds, similar to voxel grid, and trained the single-view to point cloud pipeline.
+     - *Defined an Image to Mesh Model :* Developed a neural network to decode meshes, modified the provided decoder, and trained the single-view to mesh pipeline. Experimented with different mesh initializations.
+     - *Conducted Quantitative Comparisons :* Compared F1 scores of 3D reconstruction for meshes, point clouds, and voxel grids and justified the comparison with an intuitive explanation.
+     - *Analyzed Effects of Hyperparameter Variations :* Investigated the impact of varying hyperparameters, such as n_points, vox_size, w_chamfer, or initial mesh, on the model's performance.
+     - *Interpreted Your Model :* Created insightful visualizations to understand what the learned model does and gained insights into its behavior. This included visualizing feature maps and encoder information.
+
+These learnings encompass a wide range of topics related to 3D reconstruction from single-view RGB input, loss functions, neural network design, and hyperparameter tuning. Additionally, they include the use of PyTorch and PyTorch3D for   implementing these concepts.  
+    
 ### [Assignment 3]():  Volume Rendering and Neural Radiance Fields (Ongoing)
 
 - **Learnings from Assignment 3**:
