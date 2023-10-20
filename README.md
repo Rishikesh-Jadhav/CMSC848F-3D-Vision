@@ -38,6 +38,13 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
 ### [Assignment 2](https://github.com/848f-3DVision/assignment2):  Single View to 3D
 
 - **Learnings from Assignment 2**:
+
+1. **Exploring Loss Functions (15 points)**
+   - *Fitting a Voxel Grid (5 points):* Understanding and implementing binary cross-entropy loss for regressing to 3D binary voxel grids.
+   - *Fitting a Point Cloud (5 points):* Implementing Chamfer loss for fitting 3D point clouds and writing custom code for this purpose.
+   - *Fitting a Mesh (5 points):* Defining a smoothening loss for fitting a 3D mesh, utilizing pre-defined losses in the PyTorch library.
+
+1. __Exploring Loss Functions:__
   
 ### [Assignment 3]():  Volume Rendering and Neural Radiance Fields (Ongoing)
 
