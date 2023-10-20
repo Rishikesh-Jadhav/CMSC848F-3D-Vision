@@ -52,7 +52,7 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
      - *Analyzed Effects of Hyperparameter Variations :* Investigated the impact of varying hyperparameters, such as n_points, vox_size, w_chamfer, or initial mesh, on the model's performance.
      - *Interpreted Your Model :* Created insightful visualizations to understand what the learned model does and gained insights into its behavior. This included visualizing feature maps and encoder information.
 
-These learnings encompass a wide range of topics related to 3D reconstruction from single-view RGB input, loss functions, neural network design, and hyperparameter tuning. Additionally, they include the use of PyTorch and PyTorch3D for implementing these concepts.  
+These learnings encompass a wide range of topics related to 3D reconstruction from single-view RGB input, loss functions, neural network design, and hyperparameter tuning. Additionally, they include the use of PyTorch and PyTorch3D for   implementing these concepts.  
     
 ### [Assignment 3]():  Volume Rendering and Neural Radiance Fields (Ongoing)
 
