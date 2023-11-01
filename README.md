@@ -91,8 +91,8 @@ In our course, we've delved in cutting-edge research. This section showcases a s
 - **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group4_Single-view%203D%20(Unsupervised)_paper_review.pdf)**
 - **[Presentation](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/presentations/Learning%20Category-Specific%20Mesh%20Reconstruction%20from%20Image%20Collections.pdf)**
 
- **6. [DynIBaR: Neural Dynamic Image-Based Rendering](https://arxiv.org/abs/2211.11082)** :  
-
+ **6. [DynIBaR: Neural Dynamic Image-Based Rendering](https://arxiv.org/abs/2211.11082)** :  Explore DynIBaR, a neural network model that enables realistic dynamic scene synthesis from a single image.
+ 
 - **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group2_Multiview3D(Nerfs)_paper_review.pdf)**
 - **[Presentation]()**
 
