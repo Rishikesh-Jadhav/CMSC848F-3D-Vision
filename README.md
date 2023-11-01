@@ -91,6 +91,11 @@ In our course, we've delved in cutting-edge research. This section showcases a s
 - **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group4_Single-view%203D%20(Unsupervised)_paper_review.pdf)**
 - **[Presentation](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/presentations/Learning%20Category-Specific%20Mesh%20Reconstruction%20from%20Image%20Collections.pdf)**
 
+ **6. [DynIBaR: Neural Dynamic Image-Based Rendering](https://arxiv.org/abs/2211.11082)** :  Dive into category-specific mesh reconstruction from image collections .
+
+- **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group4_Single-view%203D%20(Unsupervised)_paper_review.pdf)**
+- **[Presentation](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/presentations/Learning%20Category-Specific%20Mesh%20Reconstruction%20from%20Image%20Collections.pdf)**
+
 ## Additional Resources
 - [Course related resources](https://www.cs.umd.edu/class/fall2023/cmsc848f/)
 
