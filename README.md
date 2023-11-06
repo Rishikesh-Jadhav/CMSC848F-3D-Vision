@@ -64,6 +64,31 @@ These learnings encompass a wide range of topics related to 3D reconstruction fr
 
 - **Learnings from Assignment 4**:
 
+  1. **Differentiable Volume Rendering:**
+
+      - **Ray Sampling:** Learned how to generate world space rays from camera positions and pixel coordinates using PyTorch3D. 
+
+      - **Point Sampling:** Implemented a stratified sampler to generate sample points along each ray, taking into account near and far distances. Explored visualization of sample points.
+
+      - **Volume Rendering:** Implemented a volume renderer that evaluates a volume function at each sample point along a ray, aggregates these evaluations, and renders color and depth information. Explored volume density and color computations based on the emission-absorption model.
+
+  2. **Optimizing a Basic Implicit Volume:**
+
+      - **Random Ray Sampling:** Implemented random ray sampling to optimize the position and side lengths of a 3D box. Explored the concept of training on a subset of rays to save memory.
+
+      - **Loss and Training:** Replaced loss functions with Mean Squared Error (MSE) between predicted colors and ground truth colors (rgb_gt). Conducted training and reported the center and side lengths of the optimized box.
+
+      - **Visualization:** Created a spiral rendering of the optimized volume and compared it with a reference gif.
+
+  3. **Optimizing a Neural Radiance Field (NeRF):**
+      
+      - **NeRF Implementation:** Implemented an implicit volume as a Multi-Layer Perceptron (MLP) to map 3D positions to volume density and color. Utilized ReLU activation for density and Sigmoid activation for color. Explored the use of Positional Encoding for improved quality.
+
+      - **Loss and Training:** Wrote the loss function for training the NeRF model on RGB images. Explored data loading, training, and checkpointing.Trained NeRF on the lego bulldozer dataset
+
+      - **Visualization:** Trained a NeRF on a specific dataset and created a spiral rendering of the optimized volume. Reported the results and compared them to reference visuals.
+
+These learnings encompass various aspects of differentiable volume rendering, 3D optimization, and the implementation of Neural Radiance Fields.
 ## 📝 Paper Reviews and Presentations
 In our course, we've delved in cutting-edge research. This section showcases a selection of academic papers that we've not only read but also reviewed carefully, presented, and discussed in our class. These papers represent a diverse range of topics and discoveries in the field of 3D vision, offering valuable insights.
  
