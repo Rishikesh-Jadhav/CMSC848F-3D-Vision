@@ -15,6 +15,8 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
  **5. 3D Processing and Generation** :This module helps develop proficiency in processing point clouds, covering classification, segmentation, and detection. Additionally, we delve into techniques for processing mesh representations, understanding generative models for 3D data, and exploring dynamic aspects of 3D data.
 
 ## 📄 Assignment List
+- Click [here](https://github.com/848f-3DVision) access CMSC848f Assignments directly.
+
 ### [Assignment 1](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment1): Rendering with Pytorch3D
 
 - **Learnings from Assignment 1**:
@@ -54,7 +56,7 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
 
 These learnings encompass a wide range of topics related to 3D reconstruction from single-view RGB input, loss functions, neural network design, and hyperparameter tuning. Additionally, they include the use of PyTorch and PyTorch3D for   implementing these concepts.  
     
-### [Assignment 3](https://github.com/848f-3DVision/assignment3):  Volume Rendering and Neural Radiance Fields (Ongoing)
+### [Assignment 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3):  Volume Rendering and Neural Radiance Fields (Ongoing)
 
 - **Learnings from Assignment 3**:
 
