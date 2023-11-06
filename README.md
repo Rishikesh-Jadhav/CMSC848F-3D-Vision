@@ -56,11 +56,11 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
 
 These learnings encompass a wide range of topics related to 3D reconstruction from single-view RGB input, loss functions, neural network design, and hyperparameter tuning. Additionally, they include the use of PyTorch and PyTorch3D for   implementing these concepts.  
     
-### [Assignment 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3):  Volume Rendering and Neural Radiance Fields (Ongoing)
+### [Assignment 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3):  Volume Rendering and Neural Radiance Fields
 
 - **Learnings from Assignment 3**:
 
-### [Assignment 4](): Point cloud processing(yet to start)
+### [Assignment 4](): Point cloud processing(Ongoing)
 
 - **Learnings from Assignment 4**:
 
