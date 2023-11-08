@@ -59,11 +59,6 @@ These learnings encompass a wide range of topics related to 3D reconstruction fr
 ### [Assignment 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3):  Volume Rendering and Neural Radiance Fields
 
 - **Learnings from Assignment 3**:
-
-### [Assignment 4](): Point cloud processing(Ongoing)
-
-- **Learnings from Assignment 4**:
-
   1. **Differentiable Volume Rendering:**
 
       - **Ray Sampling:** Learned how to generate world space rays from camera positions and pixel coordinates using PyTorch3D. 
@@ -89,6 +84,11 @@ These learnings encompass a wide range of topics related to 3D reconstruction fr
       - **Visualization:** Trained a NeRF on a specific dataset and created a spiral rendering of the optimized volume. Reported the results and compared them to reference visuals.
 
 These learnings encompass various aspects of differentiable volume rendering, 3D optimization, and the implementation of Neural Radiance Fields.
+
+### [Assignment 4](): Point Cloud Classification and Segmentation
+
+- **Learnings from Assignment 4**:
+
 ## 📝 Paper Reviews and Presentations
 In our course, we've delved in cutting-edge research. This section showcases a selection of academic papers that we've not only read but also reviewed carefully, presented, and discussed in our class. These papers represent a diverse range of topics and discoveries in the field of 3D vision, offering valuable insights.
  
