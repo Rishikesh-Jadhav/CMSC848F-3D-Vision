@@ -15,6 +15,8 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
  **5. 3D Processing and Generation** :This module helps develop proficiency in processing point clouds, covering classification, segmentation, and detection. Additionally, we delve into techniques for processing mesh representations, understanding generative models for 3D data, and exploring dynamic aspects of 3D data.
 
 ## 📄 Assignment List
+- Click [here](https://github.com/848f-3DVision) access CMSC848f Assignments directly.
+
 ### [Assignment 1](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment1): Rendering with Pytorch3D
 
 - **Learnings from Assignment 1**:
@@ -54,11 +56,36 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
 
 These learnings encompass a wide range of topics related to 3D reconstruction from single-view RGB input, loss functions, neural network design, and hyperparameter tuning. Additionally, they include the use of PyTorch and PyTorch3D for   implementing these concepts.  
     
-### [Assignment 3](https://github.com/848f-3DVision/assignment3):  Volume Rendering and Neural Radiance Fields (Ongoing)
+### [Assignment 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3):  Volume Rendering and Neural Radiance Fields
 
 - **Learnings from Assignment 3**:
+  1. **Differentiable Volume Rendering:**
 
-### [Assignment 4](): Point cloud processing(yet to start)
+      - **Ray Sampling:** Learned how to generate world space rays from camera positions and pixel coordinates using PyTorch3D. 
+
+      - **Point Sampling:** Implemented a stratified sampler to generate sample points along each ray, taking into account near and far distances. Explored visualization of sample points.
+
+      - **Volume Rendering:** Implemented a volume renderer that evaluates a volume function at each sample point along a ray, aggregates these evaluations, and renders color and depth information. Explored volume density and color computations based on the emission-absorption model.
+
+  2. **Optimizing a Basic Implicit Volume:**
+
+      - **Random Ray Sampling:** Implemented random ray sampling to optimize the position and side lengths of a 3D box. Explored the concept of training on a subset of rays to save memory.
+
+      - **Loss and Training:** Replaced loss functions with Mean Squared Error (MSE) between predicted colors and ground truth colors (rgb_gt). Conducted training and reported the center and side lengths of the optimized box.
+
+      - **Visualization:** Created a spiral rendering of the optimized volume and compared it with a reference gif.
+
+  3. **Optimizing a Neural Radiance Field (NeRF):**
+      
+      - **NeRF Implementation:** Implemented an implicit volume as a Multi-Layer Perceptron (MLP) to map 3D positions to volume density and color. Utilized ReLU activation for density and Sigmoid activation for color. Explored the use of Positional Encoding for improved quality.
+
+      - **Loss and Training:** Wrote the loss function for training the NeRF model on RGB images. Explored data loading, training, and checkpointing.Trained NeRF on the lego bulldozer dataset
+
+      - **Visualization:** Trained a NeRF on a specific dataset and created a spiral rendering of the optimized volume. Reported the results and compared them to reference visuals.
+
+These learnings encompass various aspects of differentiable volume rendering, 3D optimization, and the implementation of Neural Radiance Fields.
+
+### [Assignment 4](): Point Cloud Classification and Segmentation
 
 - **Learnings from Assignment 4**:
 
