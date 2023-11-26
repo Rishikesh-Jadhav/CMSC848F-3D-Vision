@@ -1,0 +1,164 @@
+                    <meta charset="utf-8" emacsmode="-*- markdown -*">
+                            **Assignment 4 : Single View to 3D**
+                            **Author:** *Rishikesh Jadhav (119256534)*
+
+Classification Model
+================ 
+
+Visualization of Random test point clouds and predicted classes respectively. 
+------------------------
+
+**Test Accuracy of best model(Trained for 125 epochs) : 0.9779**
+
+| Point Clouds | Predicted Class | Ground Truth Class |
+|-------------|-----------------|---------------------|
+| ![Point Cloud 1](output\cls\random_vis_205_with_gt_0_pred_0.gif) | chair | chair |
+| ![Point Cloud 2](output\cls\random_vis_659_with_gt_1_pred_1.gif) | vase | vase |
+| ![Point Cloud 3](output\cls\random_vis_835_with_gt_2_pred_2.gif) | lamp | lamp |
+| ![Point Cloud 4](output\cls\random_vis_495_with_gt_0_pred_0.gif) | chair | chair |
+| ![Point Cloud 5](output\cls\random_vis_788_with_gt_2_pred_2.gif) | lamp | lamp |
+
+Visualization of Failed cases for each class  
+------------------------
+
+| Point Clouds | Predicted Class | Ground Truth Class |
+|-------------|-----------------|---------------------|
+| ![Point Cloud 1](output\cls\fail_vis_671_with_gt_1_pred_0.gif) | chair | vase |
+| ![Point Cloud 2](output\cls\fail_vis_827_with_gt_2_pred_1.gif) | vase | lamp |
+| ![Point Cloud 3](output\cls\fail_vis_651_with_gt_1_pred_2.gif) | lamp | vase |
+
+Interpretation
+------------------------
+**Analysis:**
+
+In general, the classification model demonstrates strong performance across a variety of scenarios, with a few exceptions in rare and ambiguous situations. Notably, instances arise where the model struggles to distinguish between objects with similar but distinct characteristics. For example, it may misclassify a vase as having lamp-like features or perceive a lamp or vase as resembling a chair due to ambiguous boundaries. These challenges may stem from the model's emphasis on learning spatial relationships rather than delving into the semantic nuances of each object's characteristics. Consequently, the model may encounter confusion in these ambiguous cases, leading to misclassifications.
+
+Segmentation Model
+================ 
+
+Visualization of Random test segmentation mask ground truths, predicted classes and accuracies respectively. 
+------------------------
+
+**Test Accuracy of best model(Trained for 80 epochs) : 0.8884**
+
+| Segmentation Ground Truths | Prediction | Accuracy |
+|-------------|-----------------|---------------------|
+| ![Seg Mask GT 1](output\seg\random_vis_285_gt_0_acc0.9816.gif) | ![Prediction 1](output\seg\random_vis_285_pred_0.gif) | 0.9816 |
+| ![Seg Mask GT 2](output\seg\random_vis_98_gt_0_acc0.9771.gif) | ![Prediction 2](output\seg\random_vis_98_pred_0.gif) | 0.9771 |
+| ![Seg Mask GT 3](output\seg\random_vis_569_gt_0_acc0.9761.gif) | ![Prediction 3](output\seg\random_vis_569_pred_0.gif) | 0.9761 |
+| ![Seg Mask GT 4](output\seg\random_vis_246_gt_0_acc0.974.gif) | ![Prediction 5](output\seg\random_vis_246_pred_0.gif) | 0.9740 |
+| ![Seg Mask GT 5](output\seg\random_vis_428_gt_0_acc0.9708.gif) | ![Prediction 4](output\seg\random_vis_428_pred_0.gif) | 0.9708 |
+
+Visualization of Segmentation results of bad predictions  
+------------------------
+
+| Segmentation Ground Truths | Predicted Class | Accuracy |
+|-------------|-----------------|---------------------|
+| ![Seg Mask GT 1](output\seg\random_vis_225_gt_0_acc0.5461.gif) | ![Predicted Class 1](output\seg\pred_225.gif) | 0.5461 |
+| ![Seg Mask GT 2](output\seg\random_vis_238_gt_0_acc0.5658.gif) | ![Predicted Class 2](output\seg\pred_238.gif) | 0.5658 |
+| ![Seg Mask GT 2](output\seg\random_vis_432_gt_0_acc0.6118.gif) | ![Predicted Class 2](output\seg\pred_432.gif) | 0.6118 |
+
+
+Interpretation
+------------------------
+
+**Analysis:**
+
+The segmentation model exhibits strong performance across the majority of cases, yet there are instances where it falters. Notably, challenges arise in scenarios where there are substantial overlaps between various sections of the sofa or when the parts are not distinctly separated. These complexities heighten the difficulty for the model to accurately segment and identify the boundaries, contributing to less optimal outcomes in certain cases.
+
+
+
+Robustness Analysis
+================
+
+Experiment 1: Rotate the input point clouds by 15, 45, 90 degrees and report how much the accuracy falls
+------------------------
+
+| Rotation | Classification Test Accuracy | Segmentation Test Accuracy |
+|----------|-----------------------------|-----------------------------|
+| 15       | 0.8027                      | 0.7356                      |
+| 45       | 0.3137                      | 0.4771                      |
+| 90       | 0.4176                      | 0.2395                      |
+
+
+| Rotation (degrees) | Point Clouds | Predicted Class | Ground Truth Class |
+|--------------------|-------------|-----------------|---------------------|
+| 15                 | ![Point Cloud 1](output\cls\random_vis_754_with_gt_2_pred_2.gif) | lamp | lamp |
+| 15                 | ![Point Cloud 1 Failed](output\cls\fail_vis_899_with_gt_2_pred_1.gif) | vase | lamp |
+| 45                 | ![Point Cloud 4](output\cls\random_vis_387_with_gt_0_pred_0.gif) | chair | chair |
+| 45                 | ![Point Cloud 4 Failed](output\cls\fail_vis_365_with_gt_0_pred_2.gif) | lamp | chair |
+| 90                 | ![Point Cloud 5](output\cls\random_vis_714_with_gt_1_pred_1.gif) | vase | vase |
+| 90                 | ![Point Cloud 5 Failed](output\cls\fail_vis_327_with_gt_0_pred_2.gif) | lamp | chair |
+
+Segmentation Results :
+
+| Rotation (degrees) | Segmentation Ground Truths | Prediction | Accuracy |
+|--------------------|----------------------------|-----------------|----------|
+| 15                 | ![Seg Mask GT 1](output\seg\random_vis_574_gt_1_acc0.6645.gif) | ![Prediction 1](output\seg\pred_574_15deg.gif)  | 0.6645 |
+| 45                 | ![Seg Mask GT 4](output\seg\random_vis_574_gt_1_acc0.4703.gif) | ![Prediction 1](output\seg\pred_574_45deg.gif)  | 0.4703 |
+| 90                 | ![Seg Mask GT 5](output\seg\random_vis_574_gt_1_acc0.3213.gif) | ![Prediction 1](output\seg\pred_574_90deg.gif)  | 0.3213 |
+
+
+### Interpretation
+
+**Analysis:**
+
+
+The findings indicate a decline in test accuracies for both classification and segmentation tasks as the rotation degrees decrease. Specifically, in the classification task, there is a notable reduction in the model's performance for the chair class post-rotation. This is likely attributed to the absence of rotated objects during training, resulting in the model's failure to grasp the rotation invariant property crucial for accurate rotated chair classification.
+
+Conversely, the segmentation task experiences a significant deterioration in model performance after a 45-degree rotation. This decline may stem from the model's failure to comprehend the semantic meaning of segmented parts, focusing solely on spatial relationships. Consequently, the predictions misalign with the actual segmentation, particularly in differentiating between high and low subparts.
+
+
+Experiment 2: Input a different number of points (10000, 5000, 1000, 500) points per object:
+------------------------
+
+| Number of points | Classification Test Accuracy | Segmentation Test Accuracy |
+|------------------|------------------------------|----------------------------|
+| 10000            | 0.9779                       | 0.8884                     |
+| 5000             | 0.9737                       | 0.8889                    |
+| 1000             | 0.9695                       | 0.8893                      |
+
+
+Classification Results :
+
+| Number of points   | Point Clouds | Predicted Class | Ground Truth Class |
+|--------------------|-------------|-----------------|---------------------|
+| 10000              | ![Point Cloud 1](output\cls\random_vis_913_with_gt_2_pred_2.gif) | lamp | lamp |
+| 5000               | ![Point Cloud 2](output\cls\random_vis_913_with_gt_2_pred_2_5000.gif) | lamp | lamp |
+| 1000               | ![Point Cloud 3](output\cls\random_vis_913_with_gt_2_pred_2_1000.gif) | lamp | lamp |
+
+
+
+Segmentation Results :
+
+| Number of points   | Segmentation Ground Truths | Prediction | Accuracy |
+|--------------------|----------------------------|-----------------|----------|
+| 10000              | ![Seg Mask GT 1](output\seg\random_vis_281_gt_0_acc0.9586.gif) | ![Prediction 1](output\seg\random_vis_281_pred_0.gif)  | 0.9586 |
+| 5000               | ![Seg Mask GT 2](output\seg\random_vis_281_gt_0_acc0.9568_5000.gif) | ![Prediction 2](output\seg\random_vis_281_pred_0500.gif)  | 0.9568 |
+| 1000               | ![Seg Mask GT 3](output\seg\random_vis_281_gt_0_acc0.957_1000.gif) | ![Prediction 3](output\seg\random_vis_281_pred_0_1000.gif)  | 0.9570 |
+
+
+### Interpretation
+
+**Analysis:**
+
+
+The outcomes reveal that both classification and segmentation models exhibit resilience to a reduction in the number of points. This resilience can be attributed to the observation that, despite a substantial decrease in point size from 10000 to 1000, the sparse points remain effective in outlining the general boundaries and surfaces of objects. This capacity of sparse points to capture essential features contributes to the continued effectiveness of the models in tasks such as classification and segmentation.
+
+
+References
+================
+[848F-Assignment 1 Repository](https://github.com/848f-3DVision/assignment2) : Used for the README file and starter code. 
+
+[PyTorch Official Documentation](https://pytorch.org/)
+
+[Pytorch 3D documentation](https://pytorch3d.org/)  
+
+
+
+
+
+
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js" charset="utf-8"></script><script src="https://morgan3d.github.io/markdeep/latest/markdeep.min.js?" charset="utf-8"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
+
