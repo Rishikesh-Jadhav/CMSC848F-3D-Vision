@@ -85,7 +85,7 @@ These learnings encompass a wide range of topics related to 3D reconstruction fr
 
 These learnings encompass various aspects of differentiable volume rendering, 3D optimization, and the implementation of Neural Radiance Fields.
 
-### [Assignment 4](): Point Cloud Classification and Segmentation
+### [Assignment 4](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment4): Point Cloud Classification and Segmentation
 
 - **Learnings from Assignment 4**:
 
