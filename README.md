@@ -88,6 +88,22 @@ These learnings encompass various aspects of differentiable volume rendering, 3D
 ### [Assignment 4](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment4): Point Cloud Classification and Segmentation
 
 - **Learnings from Assignment 4**:
+  1. **Classification Model Implementation:**
+   - Developed an understanding of implementing a PointNet-based architecture for point cloud classification.
+   - Learned to define model structures, handling input points from multiple classes (chairs, vases, lamps).
+   - Explored model initialization, training, and testing procedures.
+
+2. **Segmentation Model Implementation:**
+   - Gained insights into implementing a PointNet-based architecture for point cloud segmentation.
+   - Defined the model structure for segmentation tasks focusing on chair objects.
+   - Executed model initialization, training, and segmentation result visualization.
+
+3. **Experimentation and Robustness Analysis:**
+   - Conducted two robustness experiments to evaluate the model's performance under different conditions.
+   - Explored rotation of input point clouds by 15, 45, 90 degrees and varying the number of points per object by 10000, 5000, 1000 .
+   - Analyzed how these variations affected test accuracy and visually interpreted the results.
+
+The completion of Assignment 4 provided a comprehensive hands-on experience with PointNet architectures, further strengthening skills in 3D vision tasks, neural network implementation, and robustness analysis in the context of point cloud data.
 
 ## 📝 Paper Reviews and Presentations
 In our course, we've delved in cutting-edge research. This section showcases a selection of academic papers that we've not only read but also reviewed carefully, presented, and discussed in our class. These papers represent a diverse range of topics and discoveries in the field of 3D vision, offering valuable insights.
