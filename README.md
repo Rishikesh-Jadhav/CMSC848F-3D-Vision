@@ -102,7 +102,6 @@ In our course, we've delved in cutting-edge research. This section showcases a s
  - **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group1_SFM_paper_review.docx.pdf)**
  - **[Presentation](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/presentations/SfM%20and%20SLAM%20presentation.pdf)**
 
-
  **3. [Omnidata: A Scalable Pipeline for Making Multi-Task Mid-Level Vision Datasets from 3D Scans](https://arxiv.org/abs/2110.04994)** : Find out how the authors put together datasets for all sorts of vision tasks from 3D scans.
 
 - **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group6_Single-view%203D%20(2.5D)_paper_review.pdf)**
@@ -123,6 +122,11 @@ In our course, we've delved in cutting-edge research. This section showcases a s
 - **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_group2_Multiview3D(Nerfs)_paper_review.pdf)**
 - **[Presentation]()**
 
+ **7. [4D Spatio-Temporal ConvNets: Minkowski Convolutional Neural Networks](https://arxiv.org/abs/1904.08755)** : Discover 4D Spatio-Temporal ConvNets (Minkowski CNNs) for robust 3D video semantic segmentation using a trilateral space, variational inference, and sparse convolution
+ 
+- **[Review](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/blob/main/reviews_and_presentations/reviews/Rishikesh_4D%20Spatio-Temporal%20ConvNets_%20Minkowski%20Convolutional%20Neural%20Networks.pdf)**
+- **[Presentation]()**
+  
 ## Additional Resources
 - [Course related resources](https://www.cs.umd.edu/class/fall2023/cmsc848f/)
 
