@@ -15,8 +15,8 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
  **5. 3D Processing and Generation** :This module helps develop proficiency in processing point clouds, covering classification, segmentation, and detection. Additionally, we delve into techniques for processing mesh representations, understanding generative models for 3D data, and exploring dynamic aspects of 3D data.
 
 ## 📄 Assignment List
-- Click [here](https://github.com/848f-3DVision) access CMSC848f Assignments directly.
-
+- Click [here](https://github.com/848f-3DVision) to access CMSC848f Assignments directly.
+- Click [here](https://github.com/848f-3DVision) to access outputs of all projects on my Website.
 ### [Assignment 1](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment1): Rendering with Pytorch3D
 
 - **Learnings from Assignment 1**:
@@ -38,8 +38,7 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
      ![Tree Point Clouds](reviews_and_presentations/outputs/a1_tree12_pc.png)
    
   8. __Implicit Surfaces:__ Utilized implicit functions to define surfaces and converted them to meshes. Rendered a torus mesh with an implicit function and discussed mesh vs. point cloud rendering trade-offs.
-     ![Torus](reviews_and_presentations/outputs/a1_torus.png)   |  ![Implicit Torus](reviews_and_presentations/outputs/a1_torus_imp.png)
-
+   <img src="reviews_and_presentations/outputs/a1_torus.png" alt="Torus" width="400"/> <img src="reviews_and_presentations/outputs/a1_torus_imp.png" alt="Implicit Torus" width="400"/>
   
 ### [Assignment 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2):  Single View to 3D
 
