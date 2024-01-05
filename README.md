@@ -26,6 +26,7 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
   2. __Practicing with Cameras:__ Created 360-degree gifs and set camera viewpoints for rendering.
 
   3. __Re-creating the Dolly Zoom:__ Successfully implemented the Dolly Zoom effect in PyTorch3D.
+     ![dolly zoom](reviews_and_presentations/outputs/a1_dolly_zoom.png)
 
   4. __Practicing with Meshes:__ Created and rendered 3D shapes such as a tetrahedron and a cube.
 
@@ -34,8 +35,11 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
   6. __Camera Transformations:__  Implemented camera pose transformations for rendering.
 
   7. __Rendering Generic 3D Representations:__ Rendered point clouds and constructed them from RGB-D images. Parametrically generated and rendered point clouds.
+     ![Tree Point Clouds](reviews_and_presentations/outputs/a1_tree12_pc.png)
    
   8. __Implicit Surfaces:__ Utilized implicit functions to define surfaces and converted them to meshes. Rendered a torus mesh with an implicit function and discussed mesh vs. point cloud rendering trade-offs.
+     ![Torus](reviews_and_presentations/outputs/a1_torus.png)   |  ![Implicit Torus](reviews_and_presentations/outputs/a1_torus_imp.png)
+
   
 ### [Assignment 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2):  Single View to 3D
 
