@@ -38,9 +38,9 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
      ![Tree Point Clouds](reviews_and_presentations/outputs/a1_tree12_pc.png)
    
   8. __Implicit Surfaces:__ Utilized implicit functions to define surfaces and converted them to meshes. Rendered a torus mesh with an implicit function and discussed mesh vs. point cloud rendering trade-offs.
-     <img src="reviews_and_presentations/outputs/a1_torus.png" alt="Torus" width="380"/>
+     <img src="reviews_and_presentations/outputs/a1_torus.png" alt="Torus" width="370"/>
    
-     <img src="reviews_and_presentations/outputs/a1_torus_imp.png" alt="Implicit Torus" width="260"/>
+     <img src="reviews_and_presentations/outputs/a1_torus_imp.png" alt="Implicit Torus" width="250"/>
   
 ### [Assignment 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2):  Single View to 3D
 
