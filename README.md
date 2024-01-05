@@ -47,22 +47,22 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
  
   1. **Exploring Loss Functions:**
      - *Fitting a Voxel Grid:* Understood and implemented binary cross-entropy loss for regressing to 3D binary voxel grids.
-       <img src="reviews_and_presentations/outputs/a2_voxel_grid.png" width="60%">
+       <img src="reviews_and_presentations/outputs/a2_voxel_grid.png" width="70%">
      - *Fitting a Point Cloud:* Successfully implemented Chamfer loss for fitting 3D point clouds and wrote custom code for this purpose.
-       <img src="reviews_and_presentations/outputs/a2_point_cloud.png" width="60%">
+       <img src="reviews_and_presentations/outputs/a2_point_cloud.png" width="70%">
      - *Fitting a Mesh:* Defined a smoothing loss for fitting a 3D mesh, utilizing pre-defined losses in the PyTorch library.
-       <img src="reviews_and_presentations/outputs/a2_mesh.png" width="60%">
+       <img src="reviews_and_presentations/outputs/a2_mesh.png" width=70%">
   
   2. **Reconstructing 3D from Single View:**
      - *Designed an Image to Voxel Grid Model:* Created a neural network to decode binary voxel grids, possibly modifying the provided decoder, and trained the single-view to voxel grid pipeline.
      - *Developed an Image to Point Cloud Model:* Designed a neural network to decode point clouds, similar to voxel grid, and trained the single-view to point cloud pipeline.
-       <img src="reviews_and_presentations/outputs/a2_rgb2pc.png" width="60%">
+       <img src="reviews_and_presentations/outputs/a2_rgb2pc.png" width="70%">
      - *Defined an Image to Mesh Model:* Developed a neural network to decode meshes, modified the provided decoder, and trained the single-view to mesh pipeline. Experimented with different mesh initializations.
-       <img src="reviews_and_presentations/outputs/a2_rgb2mesh.png" width="60%">
+       <img src="reviews_and_presentations/outputs/a2_rgb2mesh.png" width="70%">
      - *Conducted Quantitative Comparisons:* Compared F1 scores of 3D reconstruction for meshes, point clouds, and voxel grids and justified the comparison with an intuitive explanation.
      - *Analyzed Effects of Hyperparameter Variations:* Investigated the impact of varying hyperparameters, such as n_points, vox_size, w_chamfer, or initial mesh, on the model's performance.
      - *Interpreted Your Model:* Created insightful visualizations to understand what the learned model does and gained insights into its behavior. This included visualizing feature maps and encoder information.
-       <img src="reviews_and_presentations/outputs/a2_last_layerof_encoder.png" width="60%">
+       <img src="reviews_and_presentations/outputs/a2_last_layerof_encoder.png" width="70%">
 
 
 These learnings encompass a wide range of topics related to 3D reconstruction from single-view RGB input, loss functions, neural network design, and hyperparameter tuning. Additionally, they include the use of PyTorch and PyTorch3D for   implementing these concepts.  
