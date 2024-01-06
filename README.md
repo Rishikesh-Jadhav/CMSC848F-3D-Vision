@@ -60,7 +60,7 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
        <img src="reviews_and_presentations/outputs/a2_rgb2mesh.png" width="70%">
      - *Conducted Quantitative Comparisons:* Compared F1 scores of 3D reconstruction for meshes, point clouds, and voxel grids and justified the comparison with an intuitive explanation.
      - *Analyzed Effects of Hyperparameter Variations:* Investigated the impact of varying hyperparameters, such as n_points, vox_size, w_chamfer, or initial mesh, on the model's performance.
-     - *Interpreted Your Model:* Created insightful visualizations to understand what the learned model does and gained insights into its behavior. This included visualizing feature maps and encoder information.
+     - *Interpreted My Model:* Created insightful visualizations to understand what the learned model does and gained insights into its behavior. This included visualizing feature maps and encoder information.
        <img src="reviews_and_presentations/outputs/a2_last_layerof_encoder.png" width="50%">
 
 
