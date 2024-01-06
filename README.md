@@ -106,13 +106,13 @@ These learnings encompass various aspects of differentiable volume rendering, 3D
      - Developed an understanding of implementing a PointNet-based architecture for point cloud classification.
      - Learned to define model structures, handling input points from multiple classes (chairs, vases, lamps).
      - Explored model initialization, training, and testing procedures.
-       <img src="reviews_and_presentations/outputs/a4_classific.png" width="70%">
+       <img src="reviews_and_presentations/outputs/a4_classific.png" width="60%">
 
   2. **Segmentation Model Implementation:**
      - Gained insights into implementing a PointNet-based architecture for point cloud segmentation.
      - Defined the model structure for segmentation tasks focusing on chair objects.
      - Executed model initialization, training, and segmentation result visualization.
-       <img src="https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/raw/main/Assignment4/reviews_and_presentations/outputs/a4_seg.png" width="70%">
+       <img src="reviews_and_presentations/outputs/a4_seg.png" width="60%">
 
   3. **Experimentation and Robustness Analysis:**
      - Conducted two robustness experiments to evaluate the model's performance under different conditions.
