@@ -67,17 +67,18 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
 
 These learnings encompass a wide range of topics related to 3D reconstruction from single-view RGB input, loss functions, neural network design, and hyperparameter tuning. Additionally, they include the use of PyTorch and PyTorch3D for   implementing these concepts.  
     
-### [Assignment 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3):  Volume Rendering and Neural Radiance Fields
+### [Assignment 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3): Volume Rendering and Neural Radiance Fields
 
 - **Learnings from Assignment 3**:
+
   1. **Differentiable Volume Rendering:**
 
-      - **Ray Sampling:** Learned how to generate world space rays from camera positions and pixel coordinates using PyTorch3D. 
+      - **Ray Sampling:** Learned how to generate world space rays from camera positions and pixel coordinates using PyTorch3D.
 
       - **Point Sampling:** Implemented a stratified sampler to generate sample points along each ray, taking into account near and far distances. Explored visualization of sample points.
 
       - **Volume Rendering:** Implemented a volume renderer that evaluates a volume function at each sample point along a ray, aggregates these evaluations, and renders color and depth information. Explored volume density and color computations based on the emission-absorption model.
-       <img src="reviews_and_presentations/outputs/a3_volume_render.png" width=70%">
+       <img src="https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/raw/main/Assignment3/reviews_and_presentations/outputs/a3_volume_render.png" width="70%">
 
   2. **Optimizing a Basic Implicit Volume:**
 
@@ -91,31 +92,36 @@ These learnings encompass a wide range of topics related to 3D reconstruction fr
       
       - **NeRF Implementation:** Implemented an implicit volume as a Multi-Layer Perceptron (MLP) to map 3D positions to volume density and color. Utilized ReLU activation for density and Sigmoid activation for color. Explored the use of Positional Encoding for improved quality.
 
-      - **Loss and Training:** Wrote the loss function for training the NeRF model on RGB images. Explored data loading, training, and checkpointing.Trained NeRF on the lego bulldozer dataset
+      - **Loss and Training:** Wrote the loss function for training the NeRF model on RGB images. Explored data loading, training, and checkpointing. Trained NeRF on the lego bulldozer dataset.
 
       - **Visualization:** Trained a NeRF on a specific dataset and created a spiral rendering of the optimized volume. Reported the results and compared them to reference visuals.
-       <img src="reviews_and_presentations/outputs/a3_nerf_optim.png" width=70%">
+       <img src="https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/raw/main/Assignment3/reviews_and_presentations/outputs/a3_nerf_optim.png" width="70%">
+
 These learnings encompass various aspects of differentiable volume rendering, 3D optimization, and the implementation of Neural Radiance Fields.
 
 ### [Assignment 4](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment4): Point Cloud Classification and Segmentation
 
 - **Learnings from Assignment 4**:
+
   1. **Classification Model Implementation:**
-   - Developed an understanding of implementing a PointNet-based architecture for point cloud classification.
-   - Learned to define model structures, handling input points from multiple classes (chairs, vases, lamps).
-   - Explored model initialization, training, and testing procedures.
-       <img src="reviews_and_presentations/outputs/a4_classific.png" width=70%">
-2. **Segmentation Model Implementation:**
-   - Gained insights into implementing a PointNet-based architecture for point cloud segmentation.
-   - Defined the model structure for segmentation tasks focusing on chair objects.
-   - Executed model initialization, training, and segmentation result visualization.
-       <img src="reviews_and_presentations/outputs/a4_seg.png" width=70%">
-3. **Experimentation and Robustness Analysis:**
-   - Conducted two robustness experiments to evaluate the model's performance under different conditions.
-   - Explored rotation of input point clouds by 15, 45, 90 degrees and varying the number of points per object by 10000, 5000, 1000 .
-   - Analyzed how these variations affected test accuracy and visually interpreted the results.
+     - Developed an understanding of implementing a PointNet-based architecture for point cloud classification.
+     - Learned to define model structures, handling input points from multiple classes (chairs, vases, lamps).
+     - Explored model initialization, training, and testing procedures.
+       <img src="https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/raw/main/Assignment4/reviews_and_presentations/outputs/a4_classific.png" width="70%">
+
+  2. **Segmentation Model Implementation:**
+     - Gained insights into implementing a PointNet-based architecture for point cloud segmentation.
+     - Defined the model structure for segmentation tasks focusing on chair objects.
+     - Executed model initialization, training, and segmentation result visualization.
+       <img src="https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/raw/main/Assignment4/reviews_and_presentations/outputs/a4_seg.png" width="70%">
+
+  3. **Experimentation and Robustness Analysis:**
+     - Conducted two robustness experiments to evaluate the model's performance under different conditions.
+     - Explored rotation of input point clouds by 15, 45, 90 degrees and varying the number of points per object by 10000, 5000, 1000.
+     - Analyzed how these variations affected test accuracy and visually interpreted the results.
 
 The completion of Assignment 4 provided a comprehensive hands-on experience with PointNet architectures, further strengthening skills in 3D vision tasks, neural network implementation, and robustness analysis in the context of point cloud data.
+
 
 ## 📝 Paper Reviews and Presentations
 In our course, we've delved in cutting-edge research. This section showcases a selection of academic papers that we've not only read but also reviewed carefully, presented, and discussed in our class. These papers represent a diverse range of topics and discoveries in the field of 3D vision, offering valuable insights.
