@@ -94,7 +94,6 @@ These learnings encompass a wide range of topics related to 3D reconstruction fr
       - **Loss and Training:** Wrote the loss function for training the NeRF model on RGB images. Explored data loading, training, and checkpointing. Trained NeRF on the lego bulldozer dataset.
 
       - **Visualization:** Trained a NeRF on a specific dataset and created a spiral rendering of the optimized volume. Reported the results and compared them to reference visuals.
-       <img src="reviews_and_presentations/outputs/a3_nerf_optim.png" width="70%">
 
 These learnings encompass various aspects of differentiable volume rendering, 3D optimization, and the implementation of Neural Radiance Fields.
 
