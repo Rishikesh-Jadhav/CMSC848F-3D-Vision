@@ -77,7 +77,6 @@ These learnings encompass a wide range of topics related to 3D reconstruction fr
       - **Point Sampling:** Implemented a stratified sampler to generate sample points along each ray, taking into account near and far distances. Explored visualization of sample points.
 
       - **Volume Rendering:** Implemented a volume renderer that evaluates a volume function at each sample point along a ray, aggregates these evaluations, and renders color and depth information. Explored volume density and color computations based on the emission-absorption model.
-        <img src="reviews_and_presentations/outputs/a3_volume_render.png" width="60%">
 
   2. **Optimizing a Basic Implicit Volume:**
 
@@ -94,7 +93,8 @@ These learnings encompass a wide range of topics related to 3D reconstruction fr
       - **Loss and Training:** Wrote the loss function for training the NeRF model on RGB images. Explored data loading, training, and checkpointing. Trained NeRF on the lego bulldozer dataset.
 
       - **Visualization:** Trained a NeRF on a specific dataset and created a spiral rendering of the optimized volume. Reported the results and compared them to reference visuals.
-
+        <img src="reviews_and_presentations/outputs/a3_nerf_optim.png" width="70%">
+        
 These learnings encompass various aspects of differentiable volume rendering, 3D optimization, and the implementation of Neural Radiance Fields.
 
 ### [Assignment 4](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment4): Point Cloud Classification and Segmentation
