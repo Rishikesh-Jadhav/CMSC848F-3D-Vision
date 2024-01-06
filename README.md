@@ -77,6 +77,7 @@ These learnings encompass a wide range of topics related to 3D reconstruction fr
       - **Point Sampling:** Implemented a stratified sampler to generate sample points along each ray, taking into account near and far distances. Explored visualization of sample points.
 
       - **Volume Rendering:** Implemented a volume renderer that evaluates a volume function at each sample point along a ray, aggregates these evaluations, and renders color and depth information. Explored volume density and color computations based on the emission-absorption model.
+       <img src="reviews_and_presentations/outputs/a3_volume_render.png" width=70%">
 
   2. **Optimizing a Basic Implicit Volume:**
 
@@ -93,7 +94,7 @@ These learnings encompass a wide range of topics related to 3D reconstruction fr
       - **Loss and Training:** Wrote the loss function for training the NeRF model on RGB images. Explored data loading, training, and checkpointing.Trained NeRF on the lego bulldozer dataset
 
       - **Visualization:** Trained a NeRF on a specific dataset and created a spiral rendering of the optimized volume. Reported the results and compared them to reference visuals.
-
+       <img src="reviews_and_presentations/outputs/a3_nerf_optim.png" width=70%">
 These learnings encompass various aspects of differentiable volume rendering, 3D optimization, and the implementation of Neural Radiance Fields.
 
 ### [Assignment 4](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment4): Point Cloud Classification and Segmentation
@@ -103,12 +104,12 @@ These learnings encompass various aspects of differentiable volume rendering, 3D
    - Developed an understanding of implementing a PointNet-based architecture for point cloud classification.
    - Learned to define model structures, handling input points from multiple classes (chairs, vases, lamps).
    - Explored model initialization, training, and testing procedures.
-
+       <img src="reviews_and_presentations/outputs/a4_classific.png" width=70%">
 2. **Segmentation Model Implementation:**
    - Gained insights into implementing a PointNet-based architecture for point cloud segmentation.
    - Defined the model structure for segmentation tasks focusing on chair objects.
    - Executed model initialization, training, and segmentation result visualization.
-
+       <img src="reviews_and_presentations/outputs/a4_seg.png" width=70%">
 3. **Experimentation and Robustness Analysis:**
    - Conducted two robustness experiments to evaluate the model's performance under different conditions.
    - Explored rotation of input point clouds by 15, 45, 90 degrees and varying the number of points per object by 10000, 5000, 1000 .
