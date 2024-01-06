@@ -35,11 +35,10 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
   6. __Camera Transformations:__  Implemented camera pose transformations for rendering.
 
   7. __Rendering Generic 3D Representations:__ Rendered point clouds and constructed them from RGB-D images. Parametrically generated and rendered point clouds.
-     ![Tree Point Clouds](reviews_and_presentations/outputs/a1_tree12_pc.png)
      <img src="reviews_and_presentations/outputs/a1_tree12_pc.png" alt="Tree Point Clouds" width="400"/>
-  8. __Implicit Surfaces:__ Utilized implicit functions to define surfaces and converted them to meshes. Rendered a torus mesh with an implicit function and discussed mesh vs. point cloud rendering trade-offs.
-  
-  <img src="reviews_and_presentations/outputs/a1_torus.png" alt="Torus" width="400"/> <img src="reviews_and_presentations/outputs/a1_torus_imp.png" alt="Implicit Torus" width="250"/>
+     
+  8. __Implicit Surfaces:__ Utilized implicit functions to define surfaces and converted them to meshes. Rendered a torus mesh with an implicit function and discussed mesh vs. point cloud rendering trade-offs.  
+     <img src="reviews_and_presentations/outputs/a1_torus.png" alt="Torus" width="400"/> <img src="reviews_and_presentations/outputs/a1_torus_imp.png" alt="Implicit Torus" width="250"/>
 
   ### [Assignment 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2):  Single View to 3D
 
