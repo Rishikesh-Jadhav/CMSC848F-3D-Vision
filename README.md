@@ -1,5 +1,5 @@
 # CMSC848F-3D-Vision
-This repository serves as a record of my academic experience in CMSC848F during the Fall of 2023. It includes my paper reviews, solutions, and code submissions for assignments and projects. Each assignment is organized within its respective folder, complete with accompanying documentation and any necessary resources.
+This repository serves as a record of my academic experience in CMSC848F during the Fall of 2023. It includes my paper reviews, solutions, and code submissions for projects. Each project is organized within its respective folder, complete with accompanying documentation and any necessary resources.
 
 ## 📚 Course Overview
 This 3D Computer Vision course provides a comprehensive journey through the principles and applications of three-dimensional visual data. It focuses on 5 key modules:
@@ -14,12 +14,12 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
  
  **5. 3D Processing and Generation** :This module helps develop proficiency in processing point clouds, covering classification, segmentation, and detection. Additionally, we delve into techniques for processing mesh representations, understanding generative models for 3D data, and exploring dynamic aspects of 3D data.
 
-## 📄 Assignment List
-- Click [here](https://github.com/848f-3DVision) to access CMSC848f Assignments directly.
+## 📄 Projects List
+- Click [here](https://github.com/848f-3DVision) to access CMSC848f Projects directly.
 - Click [here](https://github.com/848f-3DVision) to access outputs of all projects on my Website.
-### [Assignment 1](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment1): Rendering with Pytorch3D
+### [Project 1](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Project1): Rendering with Pytorch3D
 
-- **Learnings from Assignment 1**:
+- **Learnings from Project 1**:
 
   1. __Rendering First Mesh:__ Acquired a basic understanding of mesh rendering using PyTorch3D.
 
@@ -40,9 +40,9 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
   8. __Implicit Surfaces:__ Utilized implicit functions to define surfaces and converted them to meshes. Rendered a torus mesh with an implicit function and discussed mesh vs. point cloud rendering trade-offs.  
      <img src="reviews_and_presentations/outputs/a1_torus.png" alt="Torus" width="450"/> <img src="reviews_and_presentations/outputs/a1_torus_imp.png" alt="Implicit Torus" width="330"/>
 
-  ### [Assignment 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment2):  Single View to 3D
+  ### [Project 2](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Project2):  Single View to 3D
 
-- **Learnings from Assignment 2**:
+- **Learnings from Project 2**:
  
   1. **Exploring Loss Functions:**
      - *Fitting a Voxel Grid:* Understood and implemented binary cross-entropy loss for regressing to 3D binary voxel grids.
@@ -66,9 +66,9 @@ This 3D Computer Vision course provides a comprehensive journey through the prin
 
 These learnings encompass a wide range of topics related to 3D reconstruction from single-view RGB input, loss functions, neural network design, and hyperparameter tuning. Additionally, they include the use of PyTorch and PyTorch3D for   implementing these concepts.  
     
-### [Assignment 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment3): Volume Rendering and Neural Radiance Fields
+### [Project 3](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Project3): Volume Rendering and Neural Radiance Fields
 
-- **Learnings from Assignment 3**:
+- **Learnings from Project 3**:
 
   1. **Differentiable Volume Rendering:**
 
@@ -97,9 +97,9 @@ These learnings encompass a wide range of topics related to 3D reconstruction fr
         
 These learnings encompass various aspects of differentiable volume rendering, 3D optimization, and the implementation of Neural Radiance Fields.
 
-### [Assignment 4](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Assignment4): Point Cloud Classification and Segmentation
+### [Project 4](https://github.com/Rishikesh-Jadhav/CMSC848F-3D-Vision/tree/main/Project4): Point Cloud Classification and Segmentation
 
-- **Learnings from Assignment 4**:
+- **Learnings from Project 4**:
 
   1. **Classification Model Implementation:**
      - Developed an understanding of implementing a PointNet-based architecture for point cloud classification.
@@ -118,7 +118,7 @@ These learnings encompass various aspects of differentiable volume rendering, 3D
      - Explored rotation of input point clouds by 15, 45, 90 degrees and varying the number of points per object by 10000, 5000, 1000.
      - Analyzed how these variations affected test accuracy and visually interpreted the results.
 
-The completion of Assignment 4 provided a comprehensive hands-on experience with PointNet architectures, further strengthening skills in 3D vision tasks, neural network implementation, and robustness analysis in the context of point cloud data.
+The completion of Project 4 provided a comprehensive hands-on experience with PointNet architectures, further strengthening skills in 3D vision tasks, neural network implementation, and robustness analysis in the context of point cloud data.
 
 
 ## 📝 Paper Reviews and Presentations
